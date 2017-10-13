@@ -1,2 +1,2 @@
 FROM quay.io/calico/node:v1.3.0
-MAINTAINER Jason <piml.lui@gmail.com>
+MAINTAINER bjddd192 <bjddd192@163.com>

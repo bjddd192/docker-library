@@ -1,2 +1,2 @@
 FROM gcr.io/google_containers/kubernetes-dashboard-amd64:v1.6.1
-MAINTAINER mritd <mritd@mritd.me>
+MAINTAINER bjddd192 <bjddd192@163.com>
