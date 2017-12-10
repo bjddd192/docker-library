@@ -4,7 +4,7 @@ MAINTAINER bjddd192 <bjddd192@163.com>
 
 RUN apt-get update  && \
         apt-get -y install wget libappindicator3-1 && \
-        wget https://github.com/getlantern/lantern-binaries/blob/master/lantern-installer-beta-64-bit.deb && \
+        wget https://github.com/getlantern/lantern-binaries/raw/master/lantern-installer-beta-64-bit.deb && \
         dpkg -i lantern-installer-beta-64-bit.deb && \
         rm -rf lantern-installer-beta-64-bit.deb && \
         apt-get -f install && \
